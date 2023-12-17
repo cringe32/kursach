@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>О нас</title>
+</head>
+<head th:insert="blocks/head :: head"></head>
+<body style="background: url(&quot;/img/bg.jpg&quot;) top / cover;">
+<div th:insert="blocks/nav :: nav"></div>
+<main class="page projects-page mt-5">
+    <section class="portfolio-block projects-with-sidebar">
+        <div class="container">
+            <div class="heading">
+                <h2>О нас</h2>
+            </div>
+            <div class="row bg-light">
+                <div class="col-12" align="justify"><p class="lead" style="font-weight: normal">&nbsp;&nbsp;&nbsp;&nbsp;Мы занимается организацией грузоперевозок в РБ уже 10 лет. Все грузоперевозки мы производим быстро и качественно, предоставляя клиентам услуги разнорабочих, грузчиков и собственный транспорт. Наша работа осуществляется днем и в ночное время. Уровень обслуживания приятно удивит клиентов!</p></div>
+                <div class="col-12" align="center">
+                    <iframe width="75%" height="550" src="https://www.youtube.com/embed/d6zmYttzWqs"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="col-12" align="justify"><p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;Наши работники профессионально владеют искусством погрузки, выгрузки и перевозки разного рода грузов. Сотрудники вежливы, тактичны, пунктуальны и аккуратны. Организация перевозки любого груза будет грамотно спланирована специалистами, поэтому вы можете не беспокоиться за его сохранность в пути, даже если грузоперевозка будет суперсложной. Мы даем стопроцентную гарантию сохранности вашего имущества! Территория нашей работы - не только Беларусь, но и другие страны.</p></div>
+
+            </div>
+        </div>
+    </section>
+</main>
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+<script src="/js/theme.js"></script>
+</body>
+
+</html>
